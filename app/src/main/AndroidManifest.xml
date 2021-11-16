@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainpage_g5_fyp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MyHD Car Park"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MainPage_G5_FYP">
+        <activity android:name=".MyProfile"></activity>
+        <activity android:name=".MyVehiclePage" />
+        <activity android:name=".CarInformation" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity4">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

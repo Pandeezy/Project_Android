@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9652"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="326dp"
+        android:layout_height="213dp"
+        android:layout_marginBottom="520dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vehicle_icon" />
+
+    <EditText
+        android:id="@+id/carDescription"
+        android:layout_width="376dp"
+        android:layout_height="57dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="Vehicle Description"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <EditText
+        android:id="@+id/carModel"
+        android:layout_width="376dp"
+        android:layout_height="57dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="Enter Vehicle Model"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <EditText
+        android:id="@+id/numberPlate"
+        android:layout_width="376dp"
+        android:layout_height="57dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="Enter Plate Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <Button
+        android:id="@+id/addVehicle"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+
+        android:backgroundTint="#000000"
+        android:text="Add Vehicle"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="265dp"
+        android:layout_height="66dp"
+        android:fontFamily="casual"
+        android:text="Vehicle Page"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
